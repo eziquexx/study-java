@@ -1,6 +1,8 @@
 # ☕ studyjavachatgpt
-- ChatGPT와 Java 공부한 내용을 기록
+> ChatGPT와 Java 공부한 내용을 기록
+
 ---
+
 ## 📚 폴더 구성
 
 | 날짜      | 주제                                                              | 비고         |

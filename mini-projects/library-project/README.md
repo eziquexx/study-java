@@ -1,6 +1,6 @@
 # ☕ 도서관 대출 시스템
-- 1~11일차까지 배운 내용을 토대로 만든 미니 프로젝트
-- ChatGPT의 도움을 많이 받음
+> 1~11일차까지 배운 내용을 토대로 만든 미니 프로젝트<br>
+> ChatGPT의 도움을 많이 받음
 
 ---
 
@@ -8,6 +8,25 @@
 - `domain` : Book, User, Student, Staff, Loanable(interface)
 - `main` : Main
 - `service` : LibraryService
+
+```
+📁 library-project/
+┣ 📁 src/
+┃ ┗ 📁 com/
+┃   ┗ 📁 example/
+┃     ┗ 📁 library/
+┃       ┣ 📁 domain/
+┃       ┃ ┣ Book.java
+┃       ┃ ┣ User.java
+┃       ┃ ┣ Student.java
+┃       ┃ ┣ Staff.java
+┃       ┃ ┗ Loanable.java
+┃       ┣ 📁 service/
+┃       ┃ ┗ LibraryService.java
+┃       ┗ 📁 main/
+┃         ┗ Main.java
+┗ 📄 README.md
+```
 
 ---
 

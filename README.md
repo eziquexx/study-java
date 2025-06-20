@@ -1,7 +1,6 @@
 # ☕ Java Study & Mini Projects
 
-> ChatGPT를 활용하여 Java를 공부한 내용을 정리한 저장소입니다.
-> 
+> ChatGPT를 활용하여 Java를 공부한 내용을 정리한 저장소입니다.<br>
 > 또한 중간에 미니 프로젝트도 있습니다.  
 
 ---

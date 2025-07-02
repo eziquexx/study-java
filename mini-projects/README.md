@@ -7,3 +7,4 @@
 
 ## 📁 디렉토리 구조
 - `library-project` : 도서관 대출 시스템
+- `library-book-manager` : 도서관 도서 관리 시스템

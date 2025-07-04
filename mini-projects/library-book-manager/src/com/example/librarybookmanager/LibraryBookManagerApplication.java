@@ -17,6 +17,7 @@ public class LibraryBookManagerApplication {
         System.out.print("메뉴를 선택하세요: ");
         try {
           int choice = Integer.parseInt(sc.nextLine());
+          System.out.println();
           
           switch (choice) {
             case 1 -> {

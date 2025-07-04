@@ -1,7 +1,10 @@
-# ☕ 도서관 도서 관리 시스템
+# ☕ 도서 관리 시스템
 > 16일차까지 배운 Java 기초 문법을 활용하여 만든 도서관 도서 관리 시스템 (CLI 기반)<br>
 > chat-gpt의 도움을 많이 받음
-
+```
+- 개발 기간: 25.07.02 ~ 25.07.03
+- 목적: 16일차까지 배운 내용을 복습과 실무에서 일하는 것처럼 요구사항, 디렉토리를 세밀하게 나누어 작업하며 경험을 쌓기 위함.
+```
 ---
 
 ## 📋 요구사항
@@ -14,50 +17,43 @@
 
 ---
 
-## 📁 디렉토리 구조
-- `domain` : Book
-- `exception` : InvalidYearException
-- `constants` : Message
-- `comprator` : BookAuthorComparator, BookTitleComparator, BookYearComparator
-- `service` : LibraryService(interface), LibraryServiceImpl(implements)
-- LibraryBookManagerApplication.java
-
-```
-📁 library-project/
-┣ 📁 src/
-┃ ┗ 📁 com/
-┃   ┗ 📁 example/
-┃     ┗ 📁 library/
-┃       ┣ 📁 domain/
-┃       ┃ ┗ Book.java
-┃       ┣ 📁 constants/
-┃       ┃ ┗ Message.java
-┃       ┣ 📁 exception/
-┃       ┃ ┗ InvalidYearException.java
-┃       ┣ 📁 comparator/
-┃       ┃ ┣ BookTitleComparator.java
-┃       ┃ ┣ BookAuthorComparator.java
-┃       ┃ ┗ BookYearComparator.java
-┃       ┣ 📁 service/
-┃       ┃ ┣ LibraryService.java (interface)
-┃       ┃ ┗ LibraryServiceImpl.java (implements)
-┃       ┗ LibraryBookManagerApplication.java
-┗ 📄 README.md
-```
-
----
-
-## 🛠 사용 기술
+## 🛠 사용 기술 스택
 - Java 17
 - VS Code
 - Git & GitHub
 
 ---
 
-## 🎯 목적
-- 16일차까지 배운 내용을 복습과 실무에서 일하는 것처럼 요구사항, 디렉토리를 세밀하게 나누어 작업하며 경험을 쌓기 위함.
+## 🎬 데모 보기
+👉 [데모 영상 보러가기](https://youtu.be/wcsWAYIVDOI) - CLI로 도서 등록/검색/조회/삭제 데모 영상
 
 ---
 
-## 내용정리
-- [Jelee's Tistory 로 이동하기](https://dev-jelee.tistory.com/entry/toy-project-Library-Book-Manager-CLI-Java)
+## 📘 프로젝트 상세 기록 (블로그)
+👉 [포스팅 보러가기](https://dev-jelee.tistory.com/entry/toy-project-Library-Book-Manager-CLI-Java)
+
+---
+
+## 📁 디렉토리 구조
+
+```
+📂 src/com/example/librarybookmanager
+├── LibraryBookManagerApplication.java   // 프로그램 실행 진입점
+├── domain/
+│   └── Book.java                        // 도서 정보 클래스
+├── service/
+│   ├── LibraryService.java              // 서비스 인터페이스
+│   └── LibraryServiceImpl.java          // 비즈니스 로직 구현체
+├── constants/
+│   └── Messages.java                    // 메시지 상수 모음
+├── exception/
+│   └── InvalidYearException.java        // 사용자 정의 예외
+├── comparator/
+│   ├── BookTitleComparator.java         // 제목 정렬
+│   ├── BookAuthorComparator.java        // 저자 정렬
+│   └── BookYearComparator.java          // 연도 정렬
+└── README.md
+```
+
+---
+

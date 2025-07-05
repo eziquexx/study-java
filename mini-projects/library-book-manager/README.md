@@ -25,12 +25,12 @@
 ---
 
 ## 🎬 데모 보기
-👉 [데모 영상 보러가기](https://youtu.be/wcsWAYIVDOI) - CLI로 도서 등록/검색/조회/삭제 데모 영상
+👉 [데모 영상 보러가기](https://youtu.be/IlUydW20KMI) - CLI로 도서 등록/검색/조회/삭제 데모 영상
 
 ---
 
 ## 📘 프로젝트 상세 기록 (블로그)
-👉 [포스팅 보러가기](https://dev-jelee.tistory.com/entry/toy-project-Library-Book-Manager-CLI-Java)
+👉 [포스팅 보러가기](https://dev-jelee.tistory.com/entry/toy-project-Library-Book-Manager-CLI-Java) - 티스토리에 올린 포스트
 
 ---
 
